@@ -239,6 +239,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 2px solid rgba(0,0,0,0.15); /* thin automatic border */
 }
 
 .photo-container img {
@@ -405,4 +406,5 @@ body {
     .hero-content { padding: 0 15px; }
     .cta-button { padding: 12px 24px; font-size: 1rem; }
     .section-title { margin-bottom: 40px; }
+
 }
